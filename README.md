@@ -98,19 +98,20 @@ Dalam praktikum ini dipelajari:
 
 # Pertanyaan dan Tugas
 
-## 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini. 
-Jawab:
+## 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+### Jawab:
 
-### Input CSS
+#### Input CSS
 <img src="code css tugas 1.png">
 
-### Input HTML
+#### Input HTML
 <img src="code tugas 1.png">
 
-### Output
+#### Output
 <img src="hasil tugas 1.png">
 
 Penjelasan Eksperimen:
+
 A. Body
 - Tambahan `margin: 0; padding: 0;` → agar halaman lebih rapi tanpa spasi default.
 - `line-height: 1.6;` → membuat teks lebih enak dibaca.
@@ -136,15 +137,15 @@ E. button
 - `transform: scale(1.1);` → efek tombol sedikit membesar ketika di-hover.
 
 ## 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya! 
-Jawab:
+### Jawab:
 
-### Input CSS
+#### Input CSS
 <img src="code tugas css 2.png">
 
-### Input HTML
+#### Input HTML
 <img src="code tugas html 2.png">
 
-### Output
+#### Output
 <img src="hasil tugas 2.png">
 
 Perbedaan `h1` { ... } dengan `#intro h1` { ... }
@@ -154,41 +155,44 @@ Perbedaan `h1` { ... } dengan `#intro h1` { ... }
 → berlaku khusus untuk elemen `<h1>` yang ada di dalam elemen dengan ID intro.
 
 ## 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! 
-Jawab:
+### Jawab:
 
 Urutan Prioritas CSS (Cascade & Specificity)
 Jika ada Internal CSS, Eksternal CSS, dan Inline CSS pada elemen yang sama → browser akan memilih yang paling spesifik.
 
 Urutannya (dari lemah ke kuat):
+
 A. Eksternal CSS
+
 B. Internal CSS `<style>` 
+
 C. Inline CSS `(style="...")`
 
-### Input CSS
+#### Input CSS
 <img src="code tugas css 2.png">
 
-### Input HTML
+#### Input HTML
 <img src="code tugas html 3.png">
 
-### Output
+#### Output
 <img src="hasil tugas 3.png">
 
 → Hasil di browser: teks berwarna merah (karena Inline CSS yang paling kuat).
 
 ## 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! `( <p id="paragraf-1" class="text-paragraf"> )`
-Jawab:
+### Jawab:
 
 Jika Elemen Memiliki ID dan Class:
 - ID Selector `(#id)` memiliki prioritas lebih tinggi daripada Class Selector `(.class)`.
 - Jika keduanya didefinisikan pada elemen yang sama, maka gaya dari ID akan ditampilkan.
 
-### Input CSS
+#### Input CSS
 <img src="code tugas css 4.png">
 
-### Input HTML
+#### Input HTML
 <img src="code tugas html 4.png">
 
-### Output
+#### Output
 <img src="hasil tugas 4.png">
 
 → Hasil: teks berwarna merah (karena ID lebih spesifik daripada Class).
