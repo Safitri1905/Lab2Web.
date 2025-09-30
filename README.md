@@ -51,11 +51,11 @@ Penjelasan:
 
 ## Input CSS & Eksternal CSS
 <Img src="code 2.png">
-<img src="code 4.png>
-
+<img src="code 4.png">
+  
 ## Output
 <Img src="hasil 2.png">
-<img src="hasil 4.png>
+<img src="hasil 4.png">
 
 Penjelasan:
 - Internal CSS → ditulis dalam tag `<style>` (contohnya untuk `body`, `header`, dan `h1`
