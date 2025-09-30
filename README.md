@@ -10,7 +10,7 @@ Kelas : TI.24.A.3
 
 Tujuan Praktikum
 - Mengenal penggunaan Inline CSS, Internal CSS, dan Eksternal CSS.
-- Memahami cara kerja ID Selector (#id) dan Class Selector (.class) dalam CSS.
+- Memahami cara kerja ID Selector `(#id)` dan Class Selector `(.class)` dalam CSS.
 - Membuat halaman web sederhana dengan kombinasi HTML dan CSS.
 - Melatih keterampilan memisahkan struktur (HTML) dan gaya tampilan (CSS).
 
