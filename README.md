@@ -64,10 +64,10 @@ Penjelasan:
 # 4. CSS untuk Navigasi
 
 ## Input Nav
-<img src="code css 1.png>
+<img src="code css 1.png">
 
 ## Output
-<img src="code css 1.png>
+<img src="code css 1.png">
 
 Penjelasan:
 - `nav` → memberi warna latar hijau & teks putih.
@@ -77,10 +77,10 @@ Penjelasan:
 # 5. ID Selector & Class Selector
 
 ## Input 
-<img src="code css 2.png>
+<img src="code css 2.png">
 
 ## Output
-<img src="hasil akhir.png>
+<img src="hasil akhir.png">
 
 Penjelasan:
 - `#intro` → khusus untuk elemen dengan ID `intro`.
@@ -103,13 +103,13 @@ Dalam praktikum ini dipelajari:
 Jawab:
 
 ## Input CSS
-<img src="code css tugas 1.png>
+<img src="code css tugas 1.png">
 
 ## Input HTML
-<img src="code tugas 1.png>
+<img src="code tugas 1.png">
 
 ## Output
-<img src="hasil tugas 1.png>
+<img src="hasil tugas 1.png">
 
 Penjelasan Eksperimen:
 A. Body
@@ -140,13 +140,13 @@ E. button
 Jawab:
 
 ## Input CSS
-<img src="code tugas css 2.png>
+<img src="code tugas css 2.png">
 
 ## Input HTML
-<img src="code tugas html 2.png>
+<img src="code tugas html 2.png">
 
 ## Output
-<img src="hasil tugas 2.png>
+<img src="hasil tugas 2.png">
 
 Perbedaan `h1` { ... } dengan `#intro h1` { ... }
 - `h1` { ... }
@@ -166,13 +166,13 @@ B. Internal CSS `<style>`
 C. Inline CSS `(style="...")`
 
 # Input CSS
-<img src="code tugas css 2.png>
+<img src="code tugas css 2.png">
 
 ## Input HTML
-<img src="code tugas html 3.png>
+<img src="code tugas html 3.png">
 
 ## Output
-<img src="hasil tugas 3.png>
+<img src="hasil tugas 3.png">
 
 → Hasil di browser: teks berwarna merah (karena Inline CSS yang paling kuat).
 
@@ -184,12 +184,12 @@ Jika Elemen Memiliki ID dan Class:
 - Jika keduanya didefinisikan pada elemen yang sama, maka gaya dari ID akan ditampilkan.
 
 # Input CSS
-<img src="code tugas css 4.png>
+<img src="code tugas css 4.png">
 
 ## Input HTML
-<img src="code tugas html 4.png>
+<img src="code tugas html 4.png">
 
 ## Output
-<img src="hasil tugas 4.png>
+<img src="hasil tugas 4.png">
 
 → Hasil: teks berwarna merah (karena ID lebih spesifik daripada Class).
