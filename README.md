@@ -16,7 +16,7 @@ Tujuan Praktikum
 
 # Langkah-Langkah Praktikum
 
-1. Struktur HTML
+# 1. Struktur HTML
 
 ## Input Struktur HTML
 <Img src="code 1.png">
@@ -31,7 +31,7 @@ Penjelasan:
 - `<p style="...">` → contoh Inline CSS.
 - `<a class="button btn-primary">` → contoh penggunaan Class Selector.
 
-2. Menambahkan Inline CSS 
+# 2. Menambahkan Inline CSS 
 
 ## Input Struktur HTML
 <Img src="code 3.png">
@@ -47,7 +47,7 @@ Penjelasan:
 - `text-align: center;` → membuat teks rata tengah.
 - `color: #ccd8e4;` → memberi warna teks dengan kode hex (#ccd8e4 → abu-abu kebiruan).
 
-3. Internal CSS & Eksternal CSS
+# 3. Internal CSS & Eksternal CSS
 
 ## Input CSS & Eksternal CSS
 <Img src="code 2.png">
@@ -61,7 +61,7 @@ Penjelasan:
 - Internal CSS → ditulis dalam tag `<style>` (contohnya untuk `body`, `header`, dan `h1`
 - Eksternal CSS → dipisahkan di file `style_eksternal.css` yang dipanggil dengan `link`.
 
-4. CSS untuk Navigasi
+# 4. CSS untuk Navigasi
 
 ## Input Nav
 <img src="code css 1.png>
@@ -74,7 +74,7 @@ Penjelasan:
 - `nav a` → link tanpa garis bawah dengan padding.
 - `nav .active` & `nav a:hover` → efek highlight ketika link aktif atau di-hover.
 
-5. ID Selector & Class Selector
+# 5. ID Selector & Class Selector
 
 ## Input 
 <img src="code css 2.png>
